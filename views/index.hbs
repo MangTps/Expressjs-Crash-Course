@@ -1,0 +1,10 @@
+<h1>Restaurant</h1>
+<ul class="restaurant">
+    {{#each restaurant}}
+    <li class="restaurant-item">
+        <img src="{{this.imageURL}}" class="restaurant-item-image">
+        <div class="restaurant-item-name">{{this.name}}</div>
+        <small class="restaurant-item-type">{{this.type}}</small> 
+    </li>
+    {{/each}}
+</ul>
